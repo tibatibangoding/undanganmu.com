@@ -1,4 +1,8 @@
-## Nextjs Typescript Template (Include Tailwindcss, Customize ESLint Rules)
+## Perlu Di Perhatikan!!!
+
+Proyek ini adalah milik pribadi alias produk dari tim Tiba Tiba Ngoding. Proyek ini berisikan website product profile, serta katalog dari beberapa template undangan yang kita sediakan nanti untuk calon pembeli. Untuk development mungkin agak sedikit berbeda dari biasanya karena nanti pada saat development product templatenya akan jadi satu sama website product profile ini sendiri. Untuk live demo template yang sudah jadi mungkin bisa dibuatkan di folder `/src/pages/demo/template-1`, atau sebagainya. Untuk container templatenya bisa dibuatkan di folder `/src/components/Containers/Demo/template-1`.
+
+## UndanganMu (undanganmu.com)
 
 Ini adalah proyek [Next.js](https://nextjs.org/) di-bootstrap dengan [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -6,10 +10,7 @@ Ini adalah proyek [Next.js](https://nextjs.org/) di-bootstrap dengan [`create-ne
 
 - [Next.js (Typescript)](https://nextjs.org/)
 - [Tailwindcss](https://tailwindcss.com/)
-- [NextAuth.js](https://next-auth.js.org/getting-started/introduction/)
 - [Axios](https://axios-http.com/docs/intro/)
-- [SWR](https://swr.vercel.app/)
-- [Zustand](https://docs.pmnd.rs/zustand/getting-started/introduction/)
 
 ## Fitur
 
@@ -17,7 +18,6 @@ Fitur yang terdapat pada templat proyek ini adalah:
 
 - SEO dasar.
 - Proyek Arsitektur.
-- Authentikasi.
 - State Management.
 - Kustomisasi `React Hooks`.
 - Beberapa fungsi kustom yang sering [Saya](https://github.com/nuflakbrr) pakai.
@@ -121,10 +121,6 @@ Folder `Mixins` terletak pada `/src/components/`. Lalu didalamnya berisikan apa 
 Folder `Containers` terletak pada `/src/components/`. Lalu didalamnya berisikan apa saja? Folder `Containers` Berisikan kombinasi folder `Common` dan halaman itu sendiri yang membentuk 1 halaman. 1 halaman 1 folder `Containers` agar tetap rapi.
 
 Jika pada 1 container memiliki beberapa section, maka Anda harus memisahkan dan menaruhnya di dalam folder `components` namun masih tetap dalam 1 folder `Containers`. Seperti: `/src/components/Containers/Home/components`.
-
-### Authentikasi
-
-Pada templat proyek ini sudah menggunakan authentikasi menggunakan [NextAuth](https://next-auth.js.org/getting-started/introduction/). Sudah terdapat sebuah contoh authentikasi menggunakan `GitHub`, jika user sudah melakukan authentikasi maka user tidak bisa mengakses halaman `login` dan `register` kembali. Anda juga dapat memproteksi halaman `root` atau `/` Anda dengan menghapus komentar pada file `/src/pages/index.js`.
 
 ### State Management
 
